@@ -1,0 +1,36 @@
+/* body{
+    background-color: white;
+    background-image: url('https://images.pexels.com/photos/7130497/pexels-photo-7130497.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+} */
+.sign_container{
+    text-align: center;
+}
+.sign_container .login_form{
+    background-color: rgb(255, 255, 255,0.5);
+    box-shadow:  0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    border-radius: 10px;
+}
+.login_form input:focus{
+    box-shadow: 0 0 5px 0px #ffbc2c;
+}
+.log-button{
+    background-color: #febd69;
+    border-radius: 4px;
+    border: none;
+    padding: 5px 40px;
+}
+
+.sign_container .new-user {
+    margin-top: 20px;
+
+}
+.sign_container .new-user .register{
+    background-color: #febd69;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+}

@@ -1,0 +1,75 @@
+/* navbar.css */
+
+.navbar {
+    background-color: #131921; /* Dark blue background */
+}
+
+.navbar-main {
+    padding: 60px;
+}
+
+.navbar .logo {
+    height: 60px; /* Adjust logo size */
+    margin-left: 40px;
+}
+
+.nav-link {
+    color: #febd69 !important; /* Gold color for nav links */
+    margin: 0 15px; /* Margin for spacing */
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffffff !important; /* Change color on hover */
+}
+
+.cart-section {
+    display: flex;
+    align-items: center;
+    color: #febd69; /* Gold color for cart */
+    margin-left: 15px; /* Adjust for spacing */
+}
+
+.cart-section .MuiBadge-root {
+    margin-right: 5px; /* Space between badge and icon */
+}
+
+.nav-avatar {
+    width: 35px; /* Avatar size */
+    height: 35px; /* Avatar size */
+}
+
+.navbar .form-control {
+    background-color: #f8f9fa; 
+    border: none; 
+    border-radius: 20px; /* Rounded edges */
+    margin: 10px 0; /* Adjust margins */
+    padding: 5px 10px; /* Adjust padding for smaller size */
+}
+
+.navbar .form-control:focus {
+    box-shadow: none; /* Remove focus shadow */
+}
+
+/* Transparent Dropdown Menu Styles */
+.dropdown-custom .dropdown-menu {
+    background-color: rgba(19, 25, 33, 0.8); /* Semi-transparent background */
+    border: none; /* Remove border */
+    box-shadow: none; /* Remove shadow */
+}
+
+.dropdown-item-custom {
+    color: #febd69; /* Gold color for dropdown items */
+}
+
+.dropdown-item-custom:hover {
+    background-color: rgba(254, 189, 105, 0.2); /* Lighten on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+/* Optional: Add some padding and border radius to items */
+.dropdown-item-custom {
+    padding: 10px 20px; /* Adjust padding */
+    border-radius: 5px; /* Rounded corners */
+}
