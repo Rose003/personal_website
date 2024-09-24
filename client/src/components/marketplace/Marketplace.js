@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { Container, Row, Col, Card, Form, Button, Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import InputRange from 'react-input-range';
-import 'react-input-range/lib/css/index.css';
+// import InputRange from 'react-input-range';
+// import 'react-input-range/lib/css/index.css';
 import './marketplace.css';
 import Footer from '../home/Footer';
 import { UserLocationContext } from '../../context/UserLocation';
@@ -190,14 +190,14 @@ const MarketPlace = () => {
                         </Form.Group>
 
                         {/* Price Filter */}
-                        <Form.Group controlId="priceRangeSlider">
+                        {/* <Form.Group controlId="priceRangeSlider">
                             <Form.Label>Price Range</Form.Label>
                             <InputRange
                                 maxValue={50000}
                                 minValue={0}
                                 value={priceRange}
                                 onChange={value => setPriceRange(value)} />
-                        </Form.Group>
+                        </Form.Group> */}
 
                         {/* Manual Price Range Inputs */}
                         <Form.Group controlId="manualPriceRange">

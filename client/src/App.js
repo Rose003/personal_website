@@ -1,3 +1,4 @@
+import React, { useState } from 'react'; // Import useState
 import './App.css';
 import CustomNavbar from './components/header/CustomNavbar';
 // import Navbar2 from './components/header/new_navbar/Navbar2';
@@ -9,7 +10,6 @@ import Donations from './components/Items/Donations';
 import { Routes, Route } from 'react-router-dom';
 import MarketPlace from './components/marketplace/Marketplace';
 import Sell from './components/marketplace/Sell';
-import { useState } from 'react'; // Import useState
 import ProductDetails from './components/marketplace/ProductDetails';
 import Attire from './components/Items/Attire';
 
