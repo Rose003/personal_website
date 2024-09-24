@@ -17,7 +17,7 @@ const ProductDetails = () => {
         const fetchProductDetails = async () => {
             try {
                 // Fetch product details using product ID
-                const response = await axios.get(`http://localhost:3001/products/product/${id}`);
+                const response = await axios.get(`https://elimu-backend.onrender.com/products/product/${id}`);
                 const fetchedProduct = response.data;
                 setProduct(fetchedProduct);
             } catch (error) {
@@ -42,7 +42,7 @@ const ProductDetails = () => {
                 <Row>
                     <Col md={6}>
                         <Card className='product-image'>
-                            <Card.Img variant="top" src={`http://localhost:3001/${product.image}`} crossOrigin="anonymous" />
+                            <Card.Img variant="top" src={`https://elimu-backend.onrender.com/${product.image}`} crossOrigin="anonymous" />
                         </Card>
                     </Col>
                     <Col md={6}>

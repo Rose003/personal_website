@@ -23,7 +23,7 @@ const MarketPlace = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get('http://localhost:3001/sell');
+                const response = await axios.get('https://elimu-backend.onrender.com/sell');
                 setProducts(response.data.products);
                 setFilteredProducts(response.data.products);
             } catch (error) {
@@ -251,7 +251,7 @@ const MarketPlace = () => {
                                             <Col key={product._id} md={3} className="mb-4">
                                                 <Link to={`/product/${product._id}`}>
                                                     <Card className="product-card">
-                                                        {product.image && <Card.Img variant="top" src={`http://localhost:3001/${product.image}`} crossorigin="anonymous" />}
+                                                        {product.image && <Card.Img variant="top" src={`https://elimu-backend.onrender.com/${product.image}`} crossorigin="anonymous" />}
                                                         <Card.Body className='text-center fw-bold fs-5'>
                                                             <Card.Title className='card-title'>{product.name}</Card.Title>
                                                             <Card.Text className='card-text'>Price: {product.price}</Card.Text>

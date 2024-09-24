@@ -43,7 +43,7 @@ const SignUp = () => {
         }
 
         try {
-            const response = await axios.post('http://localhost:3001/api/auth/register', {
+            const response = await axios.post('https://elimu-backend.onrender.com/api/auth/register', {
                 username,
                 email,
                 mobile,
